@@ -12,5 +12,6 @@ def pretty_print_json(data):
 
 
 if __name__ == '__main__':
-    data = load_data('alco_shops.json')
+    filepath = input('Input path to file >> ')
+    data = load_data(filepath)
     pretty_print_json(data)
